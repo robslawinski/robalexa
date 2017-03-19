@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Boilerplate code for spinning up an Alexa skills server running on Heroku with nodeJS",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robslawinski/robalexa"
